@@ -23,11 +23,11 @@ class DetailViewController: UIViewController {
     var passLokasi:String?
     override func viewDidLoad() {
         
-        labelnamaHotel.text = "name of hotel is " + passName!
-        labelAlamat.text = "the address is " + passAlamat!
-        labelRate.text = "the rate is " + passRate!
-        labelFasilitas.text = "Fasilitas is " + passFasilitas!
-        labelLokasi.text = "lokasi is " + passLokasi!
+        labelnamaHotel.text = "nama hotel adalah " + passName!
+        labelAlamat.text = "alamat di " + passAlamat!
+        labelRate.text = "rating " + passRate!
+        labelFasilitas.text = "Fasilitas tersedia " + passFasilitas!
+        labelLokasi.text = "lokasi terdekat adalah " + passLokasi!
         
         
         
